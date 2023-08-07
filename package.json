@@ -8,7 +8,20 @@
   },
   "license": "MIT",
   "main": "./src/index.js",
-  "exports": "./src/index.js",
+  "exports": {
+    "./slice": "./src/slice.js",
+    "./from-factory": "./src/from-factory.js",
+    "./copy": "./src/copy.js",
+    ".": "./src/index.js",
+    "./class": "./src/class.js",
+    "./end-point": "./src/end-point.js",
+    "./start-index": "./src/start-index.js",
+    "./start-point": "./src/start-point.js",
+    "./clone": "./src/clone.js",
+    "./combine": "./src/combine.js",
+    "./fill": "./src/fill.js",
+    "./end-index": "./src/end-index.js"
+  },
   "scripts": {
     "test": "npx @kmamal/testing",
     "update-exports": "node ./scripts/update-exports.mjs"
